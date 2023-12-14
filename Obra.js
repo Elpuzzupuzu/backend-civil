@@ -78,6 +78,7 @@ return dias;
 
 
 }
+
 var work =new obra();
 var dia =work.localizacion_replanteo(4);
 console.log(dia);
