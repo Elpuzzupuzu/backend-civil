@@ -53,8 +53,8 @@ extendida_compactacion(trabajadores, maquinas){ //solo son 2 casos 12 trabajador
  return dias;
 }
 
-construccion_placa_de_concreto(trabajadores){ // pendiente 
-var dias=trabajadores*(1/6);
+construccion_placa_de_concreto(trabajadores){ // pendiente // tiene que ser el minimo de 6 dias a razon de .5 dias por cada 2 trabajadores
+var dias=12-(trabajadores*.5);
 return dias;
 
 }
